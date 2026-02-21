@@ -8,7 +8,7 @@ from sklearn.linear_model import LogisticRegression
 st.title("❤️ Heart Disease Prediction App")
 
 # Load dataset
-data = pd.read_csv("heart.csv")
+data = pd.read_csv("C:\\Users\\Administrator\\Downloads\\heart_disease_data.csv")
 
 X = data.drop("target", axis=1)
 y = data["target"]
